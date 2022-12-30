@@ -3,6 +3,9 @@
     z-index: 3;
   }
   #no{
+    background-color: crimson;
+    font-size: 20px;
+    font-family: 'Pacifico';
     position: absolute;
     display: inline-block;
     left: 35%; 
@@ -10,6 +13,9 @@
     -webkit-transition: all 0.1s ease-out;
   }
   #yes{
+    background-color:cornflowerblue;
+    font-size: 20px;
+    font-family: 'Pacifico';
     position: absolute;
     display: inline-block;
     left: 70%; 
@@ -40,9 +46,11 @@
 
 header h2 {
   font-family: 'Pacifico';
-  font-size: 80px;
+  font-size: 120px;
   text-align: center;
 	margin-bottom: 30px;
+  margin-top: 200px;
+  color:aliceblue;
 }
 header h4 {
   font-family: 'Pacifico';
@@ -66,7 +74,7 @@ header h4 {
     display: inline-block;
     left: 7%; 
     top: 40vh;
-    font-size: 14px;
+    font-size: 30px;
     padding: 3px;
     -webkit-transition: all 0.1s ease-out;
   }
@@ -75,7 +83,7 @@ header h4 {
     display: inline-block;
     left: 58%; 
     top: 40vh;
-    font-size: 14px;
+    font-size: 30px;
     padding: 3px;
     -webkit-transition: all 0.3s ease-out;
   }

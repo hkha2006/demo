@@ -1,13 +1,13 @@
 const textConfig = {
  test1: "He luu cậu!",
   text2: "Tớ có điều này muốn hỏi cậu nhớ phải trả lời thật lòng nhaaa.",
-  text3: "Làm bạn gái anh nhé!",
+  text3: "Say hello",
   text5: "Mơ à",
-  text6: "Em đồng ý",
+  text6: "Agree",
   text7: "lí do cậu thích tớ đi :vvvv",
   text8: "Gửi cho tớ <3",
   text9: "Vì cậu đẹp try vlllll",
-  text10: "Tớ biết mà ^^ Yêu cậu 300.000",
+  text10: "Yêu emmmm <3",
   text11:
     "Tối nay tớ qua đón cậu đi chơi nhaa :v Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàooo",
   text12: "Okii lunn <3",
@@ -134,7 +134,7 @@ $(document).ready(function () {
           // confirmButtonText: textConfig.text12,
           background: '#fff url("img/iput-bg.jpg")',
           title: textConfig.text10,
-          text: textConfig.text11,
+          // text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
           // onClose: () => {
           //   window.location = "http://fb.com";
