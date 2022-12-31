@@ -46,7 +46,8 @@ $(document).ready(function () {
 
   // switch button position
   function switchButton() {
-    audio.play();
+    // var audio = new Audio("sound/duck.mp3");
+    // audio.play();
     var leftNo = $("#no").css("left");
     var topNO = $("#no").css("top");
     var leftY = $("#yes").css("left");
@@ -58,7 +59,8 @@ $(document).ready(function () {
   }
   // move random button póition
   function moveButton() {
-    audio.play();
+    // var audio = new Audio("sound/Swish1.mp3");
+    // audio.play();
     if (screen.width <= 600) {
       var x = Math.random() * 300;
       var y = Math.random() * 500;
